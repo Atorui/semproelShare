@@ -2,10 +2,10 @@
 A [Pure Plain-Javascript, Real-Time, Good-Looking, Customizable, Efficient, Lightweight, Fast] Social Share Plugin with Unified Count.
 
 ## Intro
-There has been so many notable social share plugins written in javascript. What triggers me creating this is that I want a social share plugin that are independent (i.e. pure plain-javascript), modular, using Promise API, real-time (i.e. updatable share count after user click on share buttons), and having unified/centralized count.
+There has been so many notable social share plugins written in javascript. What triggers me creating this is that I want a social share plugin that is independent (i.e. pure plain-javascript), modular, using Promise API, real-time (i.e. updatable share count after user click on share buttons), and having unified/centralized count.
 
 ## Usage
-1. Include `semproelShare.min.js` before the closing body tag:
+(1) Include `semproelShare.min.js` before the closing body tag:
 ```javascript
       <script src="semproelshare.min.js"></script>
       <script>
@@ -15,7 +15,7 @@ There has been so many notable social share plugins written in javascript. What 
 </html>
 ```
 
-2. Prepare your markup (I use [Foundation Flex Grid](http://foundation.zurb.com/sites/docs/flex-grid.html) and [Ionicons](http://ionicons.com/) here):
+(2) Prepare your markup (I use [Foundation Flex Grid](http://foundation.zurb.com/sites/docs/flex-grid.html) and [Ionicons](http://ionicons.com/) here):
 ```html
 <div class="row align-center align-middle share">
    <div class="column x-small-12 small-3 share-info">
@@ -64,7 +64,7 @@ There has been so many notable social share plugins written in javascript. What 
 </div>
 ```
 
-3. Add hooks to social media you wish to include. You can write them yourself or simply include `platform.js` in your js file:
+(3) Add hooks to social media you wish to include. You can write them yourself or simply include `platform.js` in your js file:
 ```javascript
 semproelShare.mediaPlatform.facebook = function() {
    this.urlSharer = "https://www.facebook.com/sharer/sharer.php?u={{url}}";
@@ -142,7 +142,7 @@ semproelShare.mediaPlatform.linkedin = function() {
 };
 ```
 
-4. Call the function:
+(4) Call the function:
 ```javascript
 var pageHeadRef = doc.head,
     currentPageUri = pageHeadRef.querySelector("[rel=canonical]").href, // You can get this anywhere from your site, the main point it is a string.
@@ -162,7 +162,7 @@ semproelShare({
 });
 ```
 
-5. Polish:
+(5) Polish:
 ```css
 .share {
    margin-bottom: 2rem;
