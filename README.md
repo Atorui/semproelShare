@@ -14,7 +14,8 @@ There has been so many notable social share plugins written in javascript. What 
    </body>
 </html>
 ```
-
+<br>
+<br>
 (2) Prepare your markup (I use [Foundation Flex Grid](http://foundation.zurb.com/sites/docs/flex-grid.html) and [Ionicons](http://ionicons.com/) here):
 ```html
 <div class="row align-center align-middle share">
@@ -63,7 +64,8 @@ There has been so many notable social share plugins written in javascript. What 
    </ul>
 </div>
 ```
-
+<br>
+<br>
 (3) Add hooks to social media you wish to include. You can write them yourself or simply include `platform.js` in your js file:
 ```javascript
 semproelShare.mediaPlatform.facebook = function() {
@@ -141,7 +143,8 @@ semproelShare.mediaPlatform.linkedin = function() {
    };
 };
 ```
-
+<br>
+<br>
 (4) Call the function:
 ```javascript
 var pageHeadRef = doc.head,
@@ -161,7 +164,8 @@ semproelShare({
    pageMedia: currentPageFeaturedMedia // Optional & String --> degrades to "" (empty string/text, meaning no media at all)
 });
 ```
-
+<br>
+<br>
 (5) Polish:
 ```css
 .share {
@@ -217,7 +221,7 @@ semproelShare({
 ```
 
 ## Documentation
-More on documentation [here](#).
+More on documentation [here](http://semproelshare.com/documentation).
 
 ## Browser Support
 As long as you polyfill javascript Promise, the modern browser support for both mobile and desktop (IE 9+) should be okay.
@@ -226,4 +230,4 @@ As long as you polyfill javascript Promise, the modern browser support for both 
 Copyright (c) 2016 Atok Fakhrudin
 
 ## Feature Request
-Feel free to create pull request if you have any idea on feature.
+Feel free to contribute or create pull request if you have any idea on feature.
