@@ -1,3 +1,4 @@
+/* semproelShare : A Pure Javascript Share Plugin. MIT - Copyright (c) 2016 Atok Fakhrudin */
 (function(global, kitchen) {
    "use strict";
    
