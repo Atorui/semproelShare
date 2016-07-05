@@ -65,7 +65,6 @@
                 
              var popWindow = root.open(param.url, param.title, "width=" + param.popupWidth + ",height=" + param.popupHeight + ",top=" + top + ",left=" + left + ",titlebar=yes,toolbar=no,menubar=no,location=yes,resizable=no,scrollbars=yes,status=yes");
             
-             // Puts focus on the popWindow
              if (root.focus) {
                 popWindow.focus();
              }
@@ -106,13 +105,13 @@
        }(WIN, DOC));
        
    /*
-    * the param just exactly as written below when called
-    *
-    * param: {
-    *    platformKitchen: platformKitchen,
-    *    sharePlatform: param.sharePlatform,
-    *    perPlatformCount: platformPreciseCount
-    * }
+    | the param just exactly as written below when called
+    |
+    | param: {
+    |    platformKitchen: platformKitchen,
+    |    sharePlatform: param.sharePlatform,
+    |    perPlatformCount: platformPreciseCount
+    | }
     */
    function fetchUnifiedCount(param) {
       var promiseOfShareCount = [],
@@ -164,7 +163,6 @@
       }
    }
    
-   // Everything works fine!
    function respondClickShare(e) {
       var clickTarget;
       
