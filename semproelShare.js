@@ -12,7 +12,6 @@
        platformPreciseCount = {},
        totalPreciseCount, paltformAttributeIndicator, hostElementForCountInfo,
        
-       // http://www.nekman.se/cors-jsonp-promises/ with trivial modification
        fetchJsonp = (function(root, doc, htmlBody) {
           function createInjectedScript(url, callbackName) {
              var injectedScript = doc.createElement('script');
