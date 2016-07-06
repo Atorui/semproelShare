@@ -39,26 +39,26 @@ There has been so many notable social share plugins written in javascript. What 
       </li>
       
       <li>
-         <a href="https://twitter.com/intent/tweet?url={{url}}" target="_blank" title="Tweet">
-            <span data-platform="twitter" class="ion ion-social-twitter"></span> <span>twitter</span>
+         <a data-platform="twitter" href="https://twitter.com/intent/tweet?url={{url}}" target="_blank" title="Tweet">
+            <span class="ion ion-social-twitter"></span> <span>twitter</span>
          </a>
       </li>
       
       <li>
-         <a href="https://plus.google.com/share?url={{url}}" target="_blank" title="Share on Google+">
-            <span data-platform="googleplus" class="ion ion-social-googleplus"></span> <span>google+</span>
+         <a data-platform="googleplus" href="https://plus.google.com/share?url={{url}}" target="_blank" title="Share on Google+">
+            <span class="ion ion-social-googleplus"></span> <span>google+</span>
          </a>
       </li>
       
       <li>
-         <a href="https://pinterest.com/pin/create/button/?url={{url}}&media={{media}}&description={{description}}" target="_blank" title="Pin it">
-            <span data-platform="pinterest" class="ion ion-social-pinterest"></span> <span>pinterest</span>
+         <a data-platform="pinterest" href="https://pinterest.com/pin/create/button/?url={{url}}&media={{media}}&description={{description}}" target="_blank" title="Pin it">
+            <span class="ion ion-social-pinterest"></span> <span>pinterest</span>
          </a>
       </li>
       
       <li>
-         <a href="https://www.linkedin.com/shareArticle?mini=true&url={{url}}&title={{title}}&summary={{description}}&source=" target="_blank" title="Share on LinkedIn">
-            <span data-platform="linkedin" class="ion ion-social-linkedin"></span> <span>linkedin</span>
+         <a data-platform="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{url}}&title={{title}}&summary={{description}}&source=" target="_blank" title="Share on LinkedIn">
+            <span class="ion ion-social-linkedin"></span> <span>linkedin</span>
          </a>
       </li>
    </ul>
