@@ -221,7 +221,7 @@ semproelShare({
 ```
 
 ## Documentation
-More on documentation [here](http://semproelshare.com/documentation) (currently down).
+More on documentation [here](http://semproelshare.com/documentation).
 
 ## Browser Support
 As long as you polyfill javascript Promise, the modern browser support for both mobile and desktop (IE 9+) should be okay.
