@@ -1,3 +1,13 @@
+/* semproelShare : A Pure Javascript Share Plugin. MIT - Copyright (c) 2016 Atok Fakhrudin */
+/*
+ | These are social media platform modules I have documented so far 
+ | to be hooked to the global namespace (semproelShare) before calling it.
+ | Choose which you want to include, or just include them all.
+ | Note that the name (semproelShare.mediaPlatform.nameHere) should be exactly the same 
+ | with the value of "data-*" in your markup. More about this refer to documentation at http://semproelshare.com/documentation .
+ */
+ 
+// Facebook
 semproelShare.mediaPlatform.facebook = function() {
    this.urlSharer = "https://www.facebook.com/sharer/sharer.php?u={{url}}";
    this.urlCountGetter = "http://graph.facebook.com/?id=";
@@ -13,6 +23,7 @@ semproelShare.mediaPlatform.facebook = function() {
    };
 };
 
+// Twitter
 semproelShare.mediaPlatform.twitter = function() {
    this.urlSharer = "https://twitter.com/intent/tweet?url={{url}}";
    this.urlCountGetter = "http://public.newsharecounts.com/count.json?url=";
@@ -28,6 +39,7 @@ semproelShare.mediaPlatform.twitter = function() {
    };
 };
 
+// Google+
 semproelShare.mediaPlatform.googleplus = function() {
    this.urlSharer = "https://plus.google.com/share?url={{url}}";
    this.urlCountGetter = "https://share.yandex.ru/gpp.xml?url=";
@@ -43,6 +55,7 @@ semproelShare.mediaPlatform.googleplus = function() {
    };
 };
 
+// Pinterest
 semproelShare.mediaPlatform.pinterest = function() {
    this.urlSharer = "https://pinterest.com/pin/create/button/?url={{url}}&media={{media}}&description={{description}}";
    this.urlCountGetter = "http://api.pinterest.com/v1/urls/count.json?url=";
@@ -58,6 +71,7 @@ semproelShare.mediaPlatform.pinterest = function() {
    };
 };
 
+// LinkedIn
 semproelShare.mediaPlatform.linkedin = function() {
    this.urlSharer = "https://www.linkedin.com/shareArticle?mini=true&url={{url}}&title={{title}}&summary={{description}}&source=";
    this.urlCountGetter = "https://www.linkedin.com/countserv/count/share?url=";
