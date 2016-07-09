@@ -228,6 +228,3 @@ As long as you polyfill javascript Promise, the modern browser support for both 
 
 ## MIT License
 Copyright (c) 2016 Atok Fakhrudin
-
-## Feature Request
-Feel free to contribute or create pull request if you have any idea on feature.
