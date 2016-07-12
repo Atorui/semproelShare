@@ -1,5 +1,5 @@
 # semproelShare
-A [Pure Plain-Javascript, Real-Time, Good-Looking, Customizable, Efficient, Lightweight, Fast] Social Share Plugin with Unified Count.
+Currently is building ...
 
 ## Intro
 There has been so many notable social share plugins written in javascript. What triggers me creating this is that I want a social share plugin that is independent (i.e. pure plain-javascript), modular, using Promise API, real-time (i.e. updatable share count after user click on share buttons), and having unified/centralized count.
