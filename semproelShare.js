@@ -96,7 +96,7 @@
                          },
                          
                          function(error) {
-                            throw new Error(semproelShareText + "\"Fetching " + v + " count error! Reason: " + error + "\"");
+                            throw new Error(semproelShareText + "\"Fetching " + clickedPlatform + " count error! Reason: " + error + "\"");
                          }
                       );
                    }, pK[clickedPlatform].wait || 0);
