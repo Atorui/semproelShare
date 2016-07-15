@@ -224,7 +224,7 @@
                               }
                               
                               return platformList;
-                           }(param)),
+                           }(param));
       param.shareButtonContainer = param.share.querySelector(param.shareButtonContainer);
       
       if (param.share === null || param.shareCount === null || param.sharePlatform.length === 0 || param.shareButtonContainer === null) {
