@@ -8,8 +8,8 @@
   "main": "semproelShare.js",
   "devDependencies": {
     "jshint": "^2.9.2"
-  }
+  },
   "scripts": {
     "test": "./node_modules/jshint/bin/jshint src/semproelShare.js"
-  },
+  }
 }
