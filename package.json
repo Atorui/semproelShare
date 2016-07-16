@@ -6,12 +6,10 @@
   "license": "MIT",
   "homepage": "http://semproelshare.com/",
   "main": "semproelShare.js",
-  "scripts": {
-    "test": ""
-  },
   "devDependencies": {
-    "grunt-npm": "0.0.2",
-    "grunt": "^0.4.5",
-    "grunt-contrib-coffee": "^0.12.0"
+    "jshint": "^2.9.2"
   }
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint src/semproelShare.js"
+  },
 }
