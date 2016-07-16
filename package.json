@@ -1,0 +1,15 @@
+{
+  "name": "semproelShare",
+  "description": "A Real-Time Social Share Plugin Written in Pure Javascript with No Dependencies",
+  "version": "0.1.0",
+  "author": "Atok Fakhrudin",
+  "license": "MIT",
+  "homepage": "http://semproelshare.com/",
+  "main": "semproelShare.js",
+  "devDependencies": {
+    "jshint": "^2.9.2"
+  },
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint ./src/semproelShare.js"
+  }
+}
