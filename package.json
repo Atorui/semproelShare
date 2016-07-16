@@ -1,0 +1,14 @@
+{
+  "name": "semproelShare",
+  "description": "A Real-Time Social Share Plugin Written in Pure Javascript with No Dependencies",
+  "version": "0.1.0",
+  "author": "Atok Fakhrudin",
+  "license": "MIT",
+  "homepage": "http://semproelshare.com/",
+  "main": "semproelShare.js",
+  "scripts": {
+    "test": ""
+  }
+  "devDependencies": {
+  }
+}
