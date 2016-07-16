@@ -8,7 +8,10 @@
   "main": "semproelShare.js",
   "scripts": {
     "test": ""
-  }
+  },
   "devDependencies": {
+    "grunt-npm": "0.0.2",
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.12.0"
   }
 }
